@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html>
+      <body>
+        <!--Incluir el header para hacer más ordenado y legiblel el codigo-->
+        <header>
+          <h1>Navigational Links</h1>
+          <!--Se incluye el nav para los links-->
+          <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#posts">Posts</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        <!--main con el texto más importante de la página-->
+        <main>
+          <!-- sectio y article permite ir clasificando los temas con mayor detalle de acuerdo a la necesidad de orden-->
+          <section>
+            <article>
+              <h2>Facts About Dogs</h2>
+              <p>
+                Dogs have a sense of time. It's been proven that they know the
+                difference between a hour and five. If conditioned to, they can
+                predict future events, such as regular walk times.
+              </p>
+            </article>
+            <!-- aside se utiliza para incluir información complementaria. No es necesaria pero enriquece el texto-->
+            <aside>
+              <p>
+                A study was conducted on dogs being away from their owners for
+                varying hours and the studies show that dogs who were away from
+                their owners the longest showed the greatest amount of
+                affection!
+              </p>
+            </aside>
+          </section>
+          <!---Figure permite incluir imagines,videos, cuadros. El figcaption permite describir la imagen y se ajusta a los cambios en la misma en tamaño o posición-->
+          <figure>
+            <img
+              src="https://content.codecademy.com/courses/SemanticHTML/dogimage.jpeg"
+            />
+            <figcaption>It's a dog waiting for the owner</figcaption>
+          </figure>
+          <!-- audio debe contener el source y se define autoplay y controls para activar los controles-->
+          <audio>
+            <source
+              src="https://content.codecademy.com/courses/SemanticHTML/dogBarking.mp3"
+              type="audio/mp3"
+              autoplay
+              controls
+            />
+          </audio>
+
+          <video
+            src="https://content.codecademy.com/courses/SemanticHTML/dog-video.mp4"
+            controls
+          >
+            Video unabled to load
+          </video>
+          <embed
+            src="https://content.codecademy.com/courses/SemanticHTML/dog-on-beach.gif"
+          />
+        </main>
+        <!--footer con las notas de contacto al pie de la página-->
+        <footer>
+          <p>Contact me at +1 234 567 8910</p>
+        </footer>
+      </body>
+    </html>
+  </body>
+</html>
