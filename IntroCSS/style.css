@@ -1,0 +1,51 @@
+/* Selección de elementos por atributos como p o h1*/
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: rgb(99, 7, 7);
+}
+
+/*Selección de elementos por la clase. Se debe colocar un punto adelante*/
+.title {
+  color: teal;
+}
+
+/*debo ir a la clase de title y agregar un espacion con el uppercase*/
+.uppercase {
+  text-transform: uppercase;
+}
+
+/*seleccionar un elemento por su id. Se debe incluir hashtag al inicio*/
+#article-title{
+    font-family:cursive;
+    text-transform:capitalize;
+  }
+
+  .publish-time{
+    color:gray;
+  }
+
+  /* Importante: los id tienen más prioridad que las clases que a la vez tienen más prioridad que los tags*/
+
+  /* La recomendación es tratar primero con tags, luego con class y finalmente con id.  Reglas para facilitar la lectura*/
+
+  /*Hace referencia a los h2 que tienen class destination*/
+  h2.destination {
+    font-family:cursive;
+  }
+
+/* En este caso corresponde a los h5 que se encuentran dentro de la clase description*/
+  .description h5{
+    color:teal;
+  
+  }
+
+  /* En este caso se aplica la misma fuente de letra para h5 y p. Solo se deben separar por coma*/
+  h5,p{
+    font-family:Georgia;
+  }
+  
+
+
